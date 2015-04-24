@@ -1,0 +1,8 @@
+package µÚÆßÕÂ¸´ÓÃÀà;
+
+public class a11 {
+	public static  void main(String args[]){
+		System.out.print("laozi");
+	}
+
+}

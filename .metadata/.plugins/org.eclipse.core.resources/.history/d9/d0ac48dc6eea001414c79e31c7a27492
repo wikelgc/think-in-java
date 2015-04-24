@@ -1,0 +1,33 @@
+package µÚÆßÕÂ¸´ÓÃÀà;
+
+public class WaterSource {
+	private  String s;
+	WaterSource(){
+		System.out.println("waterSource()");
+		s= "Construted";
+	}
+	public String toString(){
+		return s;
+	}
+}
+	
+	public class SprinklerSystems{
+		private String valve1,valve2,valve3;
+		private WaterSource source = new WaterSource();
+		private int i;
+		private float f;
+		public String toString(){
+			return 
+					"value1 = "+ "value1"+" "+
+					"value2 = "+"value2"+" "+
+					"value3 = "+ "value3"+""+
+					"i = " + i+ " " + "f="+f+""+
+					"source =" + source; 
+		}
+
+		public static void main(String[] args){
+		SprinklerSystem sprinlers = new SprinklerSystem();
+		System.out.println(sprinlers);
+		}
+	}
+
